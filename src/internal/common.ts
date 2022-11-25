@@ -130,3 +130,9 @@ export const CodecId: unique symbol = Symbol.for(
 )
 
 export type CodecId = typeof CodecId
+
+export const OpticId: unique symbol = Symbol.for(
+  "@fp-ts/schema/Optic"
+)
+
+export type OpticId = typeof OpticId

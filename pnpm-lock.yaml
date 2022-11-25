@@ -21,6 +21,7 @@ importers:
       '@effect-ts/core': ^0.60.2
       '@fp-ts/core': ^0.0.8
       '@fp-ts/data': ^0.0.15
+      '@fp-ts/optic': ^0.0.2
       '@repo-tooling/eslint-plugin-dprint': ^0.0.4
       '@types/benchmark': ^2.1.2
       '@types/chai': ^4.3.3
@@ -60,6 +61,7 @@ importers:
     dependencies:
       '@fp-ts/core': 0.0.8
       '@fp-ts/data': 0.0.15
+      '@fp-ts/optic': 0.0.2
     devDependencies:
       '@babel/cli': 7.19.3_@babel+core@7.19.3
       '@babel/core': 7.19.3
@@ -696,6 +698,13 @@ packages:
     resolution: {integrity: sha512-l4CFWx6wl9Nk5MSyeZa+kzAZVVZQZATTEHfQb05QiDgCI+hqQ77O5Ox0smvJALRze6vh/Sz4GLmPwUrdcANVwQ==}
     dependencies:
       '@fp-ts/core': 0.0.8
+    dev: false
+
+  /@fp-ts/optic/0.0.2:
+    resolution: {integrity: sha512-FrshAl6+NJm/kK8klk2ISlRZICQHVjFdseG59t/ZHWMGy5PKpFN8ctrzxaz/alKCfmeSmnChgQKzLsN3yIj/Tw==}
+    dependencies:
+      '@fp-ts/core': 0.0.8
+      '@fp-ts/data': 0.0.15
     dev: false
 
   /@humanwhocodes/config-array/0.10.7:
